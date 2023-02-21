@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'typewriter';
+  src: url('./font/Oceanside\ Typewriter.ttf');
+}
+
+body {
+  background-color: #E2D1BF;
+  margin: 0;
+}
+
+/* HEADER */
+
+.header-container {
+  background-color: #bf967a;
+  height: 90px;
+  width: 100%;
+}
+
+.header-title {
+  color: white;
+  font-size: 50px;
+  font-family: 'typewriter', cursive;
+  padding-top: 15px;
+  margin-left: 12px;
+}
+
+/* HOME */
+
+.home-container {
+  width: 90%;
+  height: 600px;
+}
+
+.home-img {
+  border: 4px solid #C7BEAF;
+}
